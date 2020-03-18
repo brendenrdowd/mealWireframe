@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="calendar.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>John Doe</h1>
+      <!-- yay datetime, will need to pull current week, and leave archive of everyweek since the user registers in a drop down -->      
+      <select name="week-set" id="week-set">
+        <option value="March 15-21, 2020">March 15-21, 2020</option>
+      </select>
+      <div class="weekset">
+        <div class="day">
+          <p>Su</p>
+          <!-- will need to pull days from selected option and extract just the date -->
+          <div class="date-res"><a class="date-link" href="/"></a>15</a></div>
+        </div>
+        <div class="day">
+          <p>M</p>
+          <div class="date-res"><a class="date-link" href="/"></a>16</a></div>
+        </div>
+        <div class="day">
+          <p>T</p>
+          <div class="date-res"><a class="date-link" href="/"></a>17</a></div>
+        </div>
+        <div class="day">
+          <p>W</p>
+          <div class="date-res"><a class="date-link" href="/"></a>18</a></div>
+        </div>
+        <div class="day">
+          <p>Th</p>
+          <div class="date-res"><a class="date-link" href="/"></a>19</a></div>
+        </div>
+        <div class="day">
+          <p>F</p>
+          <div class="date-res"><a class="date-link" href="/"></a>20</a></div>
+        </div>
+        <div class="day">
+          <p>Sa</p>
+          <div class="date-res"><a class="date-link" href="/"></a>21</a></div>
+        </div>
+      </div>
+      <a href="/" class="button">Groceries</a>
+      <a href="./search.html" class="button">Search</a>
+    </header>
+    <main>
+      <h2 class="today">TODAY'S MENU</h2>
+      <section class="recipe-card">
+        <div class="card-header">
+          <img src="" alt="">
+          <!-- nutrients? diet? -->
+        </div>
+        <div class="card-body">
+          <h3>Title</h3>
+          <p>Summary</p>
+        </div>
+      </section>
+      <section class="recipe-card">
+        <div class="card-header">
+          <img src="" alt="">
+          <!-- nutrients? diet? -->
+        </div>
+        <div class="card-body">
+          <h3>Title</h3>
+          <p>Summary</p>
+        </div>
+      </section>
+      <section class="recipe-card">
+        <div class="card-header">
+          <img src="" alt="">
+          <!-- nutrients? diet? -->
+        </div>
+        <div class="card-body">
+          <h3>Title</h3>
+          <p>Summary</p>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>

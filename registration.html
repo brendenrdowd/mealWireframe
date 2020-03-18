@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Mealplanner</title>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome!</h1>
+    <h3>Sign up to get started planning your meals today.</h3>
+  </header>
+  <main>
+    <form action="./dashboard.html" method="POST">
+      <div class="form-field">
+        <label for="name">Name<span class="red">*</span></label>
+        <input type="text" name="name">
+      </div>
+      <div class="form-field">
+        <label for="email">Email<span class="red">*</span></label>
+        <input type="text" name="email">
+      </div>
+      <div class="form-field">
+        <label for="password">Password<span class="red">*</span></label>
+        <input type="password" name="password">
+      </div>
+      <div class="form-field">
+        <label for="confirm">Confirm Password<span class="red">*</span></label>
+        <input type="password" name="confirm">
+      </div>
+      <div class="form-field">
+        <label for="diet">Diet</label>
+        <select id="diet">
+          <option value="">none</option>
+          <option value="paleo">Paleo</option>
+          <option value="pescetarian">Pescetarian</option>
+          <option value="primal">Primal</option>
+          <option value="vegan">Vegan</option>
+          <option value="vegetarian">Vegetarian</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="restrictions">Food Restrictions or Allergies <span class="small">please seperate food items by comma</span></label>
+        <input type="text" name="restrictions">
+      </div>
+      <div class="form-field">
+        <input type="submit" class="button" value="Register">
+    </form>
+  </main>
+</body>
+
+</html>
